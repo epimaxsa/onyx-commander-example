@@ -1,5 +1,5 @@
 (ns onyx-commander-example.spec.event-specs
-  (:require [clojure.spec :as s]
+  (:require [clojure.spec.alpha :as s]
             [onyx-commander-example.spec.base-specs :refer [event-action]]))
 
 (s/def :event.account-created/data :command.create-account/data)
