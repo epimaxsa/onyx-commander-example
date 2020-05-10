@@ -1,5 +1,5 @@
 (ns onyx-commander-example.impl
-  (:require [clojure.spec :as s]
+  (:require [clojure.spec.alpha :as s]
             [onyx.windowing.aggregation :refer [set-value-aggregation-apply-log]]
             [datomic.api :as d]
             [gregor.core :as g])
