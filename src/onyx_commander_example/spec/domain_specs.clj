@@ -1,5 +1,5 @@
 (ns onyx-commander-example.spec.domain-specs
-  (:require [clojure.spec :as s]))
+  (:require [clojure.spec.alpha :as s]))
 
 (s/def :transaction/id uuid?)
 
