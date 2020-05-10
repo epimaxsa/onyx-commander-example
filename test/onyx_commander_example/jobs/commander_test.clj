@@ -1,6 +1,6 @@
 (ns onyx-commander-example.jobs.commander-test
   (:require [clojure.test :refer [deftest is testing]]
-            [clojure.spec :as s]
+            [clojure.spec.alpha :as s]
             [onyx-commander-example.commander :as c]
             [onyx-commander-example.datomic :as da]
             [onyx-commander-example.spec.base-specs]
