@@ -1,5 +1,5 @@
 (ns onyx-commander-example.spec.command-specs
-  (:require [clojure.spec :as s]
+  (:require [clojure.spec.alpha :as s]
             [onyx-commander-example.spec.base-specs :refer [command-action]]))
 
 (s/def :command.create-account/data
